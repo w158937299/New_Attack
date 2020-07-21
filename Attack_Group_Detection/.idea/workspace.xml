@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2470440b-ee46-4e2e-a7e8-10acae624c9f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ADEmbedding$het_neigh.coverage" NAME="het_neigh Coverage Results" MODIFIED="1595151291591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$HighSimplePoint.coverage" NAME="HighSimplePoint Coverage Results" MODIFIED="1593513873513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$data_input.coverage" NAME="data_input Coverage Results" MODIFIED="1595166702357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$Recall_Precision.coverage" NAME="Recall&amp;Precision Coverage Results" MODIFIED="1594652989650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het/test" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1592313502366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1591410910937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HetGNN" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$DIANA__2_.coverage" NAME="DIANA (2) Coverage Results" MODIFIED="1593306085154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$graphDec.coverage" NAME="graphDec Coverage Results" MODIFIED="1594524223534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$MyFunction.coverage" NAME="MyFunction Coverage Results" MODIFIED="1594029338867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbscan" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$Gen_het_random_walk.coverage" NAME="Gen_het_random_walk Coverage Results" MODIFIED="1594121105707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$formatEdge.coverage" NAME="formatEdge Coverage Results" MODIFIED="1595059776554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$DIANA.coverage" NAME="DIANA Coverage Results" MODIFIED="1594973303021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$Gen_het_random_walk2.coverage" NAME="Gen_het_random_walk2 Coverage Results" MODIFIED="1595155414180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$Mean_shift.coverage" NAME="Mean shift Coverage Results" MODIFIED="1594969862940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$newComputeNNedge.coverage" NAME="newComputeNNedge Coverage Results" MODIFIED="1595143490700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$getData.coverage" NAME="getData Coverage Results" MODIFIED="1595217257497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$getdata.coverage" NAME="getdata Coverage Results" MODIFIED="1590891505040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HetGNN" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$newComputeIIedge.coverage" NAME="newComputeIIedge Coverage Results" MODIFIED="1595043535394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$HetGNN.coverage" NAME="HetGNN Coverage Results" MODIFIED="1592059387422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$Mean_shift_next.coverage" NAME="Mean_shift_next Coverage Results" MODIFIED="1592737394838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$DIvisiveANAlysis.coverage" NAME="DIvisiveANAlysis Coverage Results" MODIFIED="1592749272356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het/DIANA-Clustering-Algorithm-master" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$ComputeNNEdge.coverage" NAME="ComputeNNEdge Coverage Results" MODIFIED="1593574573467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$main.coverage" NAME="main Coverage Results" MODIFIED="1595323978799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$calculate_similarity.coverage" NAME="calculate_similarity Coverage Results" MODIFIED="1592564094379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het/DIANA/DIANA-Clustering-Algorithm-master" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$ind_choose.coverage" NAME="ind_choose Coverage Results" MODIFIED="1594973511490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$b.coverage" NAME="b Coverage Results" MODIFIED="1591495019658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HetGNN/test" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1594647951562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$het_random_walk__1_.coverage" NAME="het_random_walk (1) Coverage Results" MODIFIED="1591496787424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HetGNN" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$het_random_walk.coverage" NAME="het_random_walk Coverage Results" MODIFIED="1591710687600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$globalvars.coverage" NAME="globalvars Coverage Results" MODIFIED="1591494113683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HetGNN" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$test.coverage" NAME="test Coverage Results" MODIFIED="1593963028557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbscan" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$newComputeNNedgeadd.coverage" NAME="newComputeNNedgeadd Coverage Results" MODIFIED="1595154602743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$model.coverage" NAME="model Coverage Results" MODIFIED="1595168090623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$All_embedding_cluster.coverage" NAME="All_embedding_cluster Coverage Results" MODIFIED="1593511526857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$Bulidata.coverage" NAME="Bulidata Coverage Results" MODIFIED="1592060165130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$Compute_Similarity_matrix.coverage" NAME="Compute_Similarity_matrix Coverage Results" MODIFIED="1594006325670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$tools.coverage" NAME="tools Coverage Results" MODIFIED="1592059174645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$DIANA__1_.coverage" NAME="DIANA (1) Coverage Results" MODIFIED="1592638165640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het/DIANA" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$DBScan.coverage" NAME="DBScan Coverage Results" MODIFIED="1594972064367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het" />
+    <SUITE FILE_PATH="coverage/ADEmbedding$test_spam_group.coverage" NAME="test_spam_group Coverage Results" MODIFIED="1594973546741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Het/test" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ADEmbedding" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Het/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="157" column="58" selection-start-line="157" selection-start-column="58" selection-end-line="157" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Het/Parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Het/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270">
+              <caret line="226" column="66" selection-start-line="226" selection-start-column="66" selection-end-line="226" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>att2</find>
+      <find>save_uuweight_path</find>
+      <find>uuiindex</find>
+      <find>file_path</find>
+      <find>u5003</find>
+      <find>i16230</find>
+      <find>i5640</find>
+      <find>u387u2591</find>
+      <find>u2591</find>
+      <find>u202u106</find>
+      <find>i1273</find>
+      <find>i1273i943 =</find>
+      <find>u448</find>
+      <find>u</find>
+      <find>u505u89</find>
+      <find>u3534</find>
+      <find>i1273i943</find>
+      <find>u2559u444</find>
+      <find>u387</find>
+      <find>u387'</find>
+      <find>u387</find>
+      <find>u152u387</find>
+      <find>u2701u387</find>
+      <find>u451</find>
+      <find>u4705u4711</find>
+      <find>i11249</find>
+      <find>u451</find>
+      <find>i3397</find>
+      <find>het_random_walk_fliepath</find>
+      <find>uu_edge_weight</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Het/Compute_Similarity.py" />
+        <option value="$PROJECT_DIR$/Het/DIANA/DIANA.py" />
+        <option value="$PROJECT_DIR$/Het/edges/COS_Similarity_matrix.txt" />
+        <option value="E:/python365/Lib/site-packages/sklearn/cluster/mean_shift_.py" />
+        <option value="$PROJECT_DIR$/Het/edges/candidate_group.txt" />
+        <option value="$PROJECT_DIR$/Het/Mean shift next.py" />
+        <option value="$PROJECT_DIR$/Het/DIANA-Clustering-Algorithm-master/DIvisiveANAlysis.py" />
+        <option value="$PROJECT_DIR$/Het/edges/gene_group.txt" />
+        <option value="$PROJECT_DIR$/Het/edges/AMSpamGroup.txt" />
+        <option value="$PROJECT_DIR$/Het/Mean_shift_next.py" />
+        <option value="$PROJECT_DIR$/Het/edges/last_candidate_group1.txt" />
+        <option value="$PROJECT_DIR$/Het/edges/testAMSpamGroup.txt" />
+        <option value="$PROJECT_DIR$/Het/edges/AMSpamGroup15.txt" />
+        <option value="$PROJECT_DIR$/Het/edges/last_candidate_group15.txt" />
+        <option value="$PROJECT_DIR$/Het/All_embedding_cluster.py" />
+        <option value="$PROJECT_DIR$/Het/HighSimplePoint.py" />
+        <option value="$PROJECT_DIR$/Het/HetGNN.py" />
+        <option value="$PROJECT_DIR$/Het/ComputeNNEdge.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Het/edges/uuedge1.txt" />
+        <option value="$PROJECT_DIR$/Het/edges/OJLD_Similar_matrix1.txt" />
+        <option value="$PROJECT_DIR$/Het/edges/testgroup.txt" />
+        <option value="$PROJECT_DIR$/Het/Compute_Similarity_matrix.py" />
+        <option value="$PROJECT_DIR$/dbscan/MyFunction.py" />
+        <option value="$PROJECT_DIR$/Het/edges/AMSpamGroup302.txt" />
+        <option value="$PROJECT_DIR$/Het/scan_graph.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/graphDec.py" />
+        <option value="$PROJECT_DIR$/Het/NewAttention.py" />
+        <option value="$PROJECT_DIR$/Het/ind_choose.py" />
+        <option value="$PROJECT_DIR$/Het/test/Recall&amp;Precision.py" />
+        <option value="$PROJECT_DIR$/Het/test/test_spam_group.py" />
+        <option value="$PROJECT_DIR$/Het/new_model.py" />
+        <option value="$PROJECT_DIR$/Het/Mean shift.py" />
+        <option value="$PROJECT_DIR$/Het/DBScan.py" />
+        <option value="$PROJECT_DIR$/Het/DIANA.py" />
+        <option value="$PROJECT_DIR$/Het/newComputeIIedge.py" />
+        <option value="$PROJECT_DIR$/Het/formatEdge.py" />
+        <option value="$PROJECT_DIR$/Het/Gen_het_random_walk.py" />
+        <option value="$PROJECT_DIR$/Het/newComputeNNedge.py" />
+        <option value="$PROJECT_DIR$/Het/edges/uu_neigh1.txt" />
+        <option value="$PROJECT_DIR$/Het/edges/ii_neigh1.txt" />
+        <option value="$PROJECT_DIR$/Het/het_neigh.py" />
+        <option value="$PROJECT_DIR$/Het/newComputeNNedgeadd.py" />
+        <option value="$PROJECT_DIR$/Het/Gen_het_random_walk2.py" />
+        <option value="$PROJECT_DIR$/Het/tools.py" />
+        <option value="$PROJECT_DIR$/Het/data_input.py" />
+        <option value="$PROJECT_DIR$/Het/getData.py" />
+        <option value="$PROJECT_DIR$/Het/model.py" />
+        <option value="$PROJECT_DIR$/Het/Parser.py" />
+        <option value="$PROJECT_DIR$/Het/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1385" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ADEmbedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADEmbedding" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADEmbedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADEmbedding" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADEmbedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADEmbedding" type="462c0819:PsiDirectoryNode" />
+              <item name="Het" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADEmbedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADEmbedding" type="462c0819:PsiDirectoryNode" />
+              <item name="Het" type="462c0819:PsiDirectoryNode" />
+              <item name="edges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADEmbedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADEmbedding" type="462c0819:PsiDirectoryNode" />
+              <item name="Het" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADEmbedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADEmbedding" type="462c0819:PsiDirectoryNode" />
+              <item name="Het" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="checkpoint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADEmbedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADEmbedding" type="462c0819:PsiDirectoryNode" />
+              <item name="Het" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wjy666\PycharmProjects\ADEmbedding\Het\DIANA" />
+      <recent name="C:\Users\wjy666\PycharmProjects\ADEmbedding\dataset" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wjy666\PycharmProjects\ADEmbedding\Het\edges" />
+      <recent name="C:\Users\wjy666\PycharmProjects\ADEmbedding\Het" />
+      <recent name="C:\Users\wjy666\PycharmProjects\ADEmbedding\dbscan" />
+      <recent name="C:\Users\wjy666\PycharmProjects\ADEmbedding\Het\DIANA" />
+      <recent name="C:\Users\wjy666\PycharmProjects\ADEmbedding\HetGNN\edges" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="Gen_het_random_walk2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ADEmbedding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Het" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Het/Gen_het_random_walk2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_input" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ADEmbedding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Het" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Het/data_input.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ADEmbedding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Het" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Het/getData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ADEmbedding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Het" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Het/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ADEmbedding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Het" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Het/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.getData" />
+        <item itemvalue="Python.model" />
+        <item itemvalue="Python.data_input" />
+        <item itemvalue="Python.Gen_het_random_walk2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2470440b-ee46-4e2e-a7e8-10acae624c9f" name="Default Changelist" comment="" />
+      <created>1589342948165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589342948165</updated>
+      <workItem from="1589342988145" duration="7763000" />
+      <workItem from="1589372337306" duration="4912000" />
+      <workItem from="1589418584980" duration="9466000" />
+      <workItem from="1589505005284" duration="7771000" />
+      <workItem from="1589613580243" duration="15288000" />
+      <workItem from="1589677753355" duration="32499000" />
+      <workItem from="1589763206867" duration="11831000" />
+      <workItem from="1589850013945" duration="12963000" />
+      <workItem from="1589886641691" duration="2669000" />
+      <workItem from="1589937049958" duration="11540000" />
+      <workItem from="1589966338356" duration="6977000" />
+      <workItem from="1590034532176" duration="6346000" />
+      <workItem from="1590115374731" duration="11644000" />
+      <workItem from="1590197351949" duration="21793000" />
+      <workItem from="1590282530981" duration="7368000" />
+      <workItem from="1590367244298" duration="9473000" />
+      <workItem from="1590418295556" duration="357000" />
+      <workItem from="1590673108434" duration="609000" />
+      <workItem from="1590891160048" duration="13288000" />
+      <workItem from="1590973294960" duration="15366000" />
+      <workItem from="1591059579288" duration="20029000" />
+      <workItem from="1591146317511" duration="19571000" />
+      <workItem from="1591232457210" duration="11240000" />
+      <workItem from="1591318485670" duration="9784000" />
+      <workItem from="1591407552875" duration="14913000" />
+      <workItem from="1591492506652" duration="15265000" />
+      <workItem from="1591577920588" duration="8272000" />
+      <workItem from="1591664574791" duration="17092000" />
+      <workItem from="1591750675728" duration="17620000" />
+      <workItem from="1591837893064" duration="9997000" />
+      <workItem from="1591924349157" duration="12570000" />
+      <workItem from="1592010715084" duration="1550000" />
+      <workItem from="1592044811159" duration="5104000" />
+      <workItem from="1592096668046" duration="13764000" />
+      <workItem from="1592183241514" duration="19500000" />
+      <workItem from="1592269096514" duration="17423000" />
+      <workItem from="1592355494085" duration="32014000" />
+      <workItem from="1592444239873" duration="16503000" />
+      <workItem from="1592527571145" duration="17764000" />
+      <workItem from="1592616852686" duration="31838000" />
+      <workItem from="1592726568675" duration="16498000" />
+      <workItem from="1592787068594" duration="27947000" />
+      <workItem from="1592873642866" duration="21822000" />
+      <workItem from="1592960023808" duration="16071000" />
+      <workItem from="1593048310643" duration="24463000" />
+      <workItem from="1593133916217" duration="23291000" />
+      <workItem from="1593220408849" duration="26459000" />
+      <workItem from="1593305756306" duration="4727000" />
+      <workItem from="1593391542647" duration="22521000" />
+      <workItem from="1593478847023" duration="23598000" />
+      <workItem from="1593565122889" duration="32427000" />
+      <workItem from="1593660004469" duration="14452000" />
+      <workItem from="1593739562971" duration="12933000" />
+      <workItem from="1593824369771" duration="8431000" />
+      <workItem from="1593912177819" duration="16448000" />
+      <workItem from="1593998793965" duration="30505000" />
+      <workItem from="1594048671808" duration="44000" />
+      <workItem from="1594082720520" duration="19240000" />
+      <workItem from="1594170532947" duration="12180000" />
+      <workItem from="1594257304663" duration="12919000" />
+      <workItem from="1594344667705" duration="13475000" />
+      <workItem from="1594451946939" duration="15511000" />
+      <workItem from="1594519160673" duration="19243000" />
+      <workItem from="1594646035840" duration="5437000" />
+      <workItem from="1594690086805" duration="24575000" />
+      <workItem from="1594774823808" duration="13768000" />
+      <workItem from="1594828429050" duration="37000" />
+      <workItem from="1594828718014" duration="107000" />
+      <workItem from="1594860761431" duration="12927000" />
+      <workItem from="1594944249104" duration="13316000" />
+      <workItem from="1595036262512" duration="17988000" />
+      <workItem from="1595122495511" duration="27504000" />
+      <workItem from="1595206572834" duration="14765000" />
+      <workItem from="1595295317529" duration="12363000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1079728000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49845678" visible="true" weight="0.25586355" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5015432" side_tool="true" weight="0.33742005" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.40520042" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.38136512" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.30170575" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49845678" visible="true" weight="0.25053304" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5015432" side_tool="true" weight="0.33742005" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.37486458" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.38136512" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.30170575" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/newGraphDec.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Het/edges/Scan_group.txt" />
+    <entry file="file://E:/python365/Lib/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="531" selection-start-line="531" selection-end-line="531" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python365/Lib/site-packages/torch/nn/modules/rnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewAttention.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGraphDec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/test/Recall&amp;Precision.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/new_node_embedding2.txt">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/new_node_embedding3.txt">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/Candidate_group_att.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="11852" selection-start-line="11852" selection-end-line="11852" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/ScanAMSpamGroupatt.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9747">
+          <caret line="519" selection-start-line="519" selection-end-line="519" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/test/test_spam_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/format_IIedge1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9377902" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/Gen_het_random_walk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="126" column="57" lean-forward="true" selection-start-line="126" selection-start-column="57" selection-end-line="126" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/formatEdge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="154" column="50" selection-start-line="154" selection-start-column="50" selection-end-line="154" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/newComputeIIedge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/iu_neigh.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-333821" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/uu_neigh.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="4369" column="72" selection-start-line="4369" selection-start-column="72" selection-end-line="4369" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/uuedge1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="294168" column="29" lean-forward="true" selection-start-line="294168" selection-start-column="29" selection-end-line="294168" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/newComputeNNedge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="151" column="41" selection-start-line="151" selection-start-column="41" selection-end-line="151" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/format_UUedge1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="70983" column="10" selection-start-line="70983" selection-end-line="70983" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/ui_neigh.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="3322" column="5" selection-start-line="3322" selection-end-line="3322" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/ii_neigh1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="17135" column="5" selection-start-line="17135" selection-end-line="17135" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/iiedge1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="271449" column="9" selection-start-line="271449" selection-start-column="4" selection-end-line="271449" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/het_neigh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="110" column="36" selection-start-line="110" selection-start-column="36" selection-end-line="110" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/uu_neigh1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="4792" column="35" selection-start-line="4792" selection-start-column="35" selection-end-line="4792" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/het_random_walk1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/het_random_walk2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="137" selection-start-line="6" selection-start-column="137" selection-end-line="6" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/Gen_het_random_walk2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/newComputeNNedgeadd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/new_node_embedding.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-8488" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/Mean shift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1086">
+          <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/DIANA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3040">
+          <caret line="360" column="45" selection-start-line="360" selection-start-column="45" selection-end-line="360" selection-end-column="45" />
+          <folding>
+            <element signature="e#92#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/testgroup.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/All_embedding_cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/Bulidata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2437">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/data_input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/DBScan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="163" column="21" lean-forward="true" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/HetGNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="169" column="36" lean-forward="true" selection-start-line="169" selection-start-column="36" selection-end-line="169" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/ind_choose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6386">
+          <caret line="679" column="36" lean-forward="true" selection-start-line="679" selection-start-column="36" selection-end-line="679" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/scan_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1539">
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-932">
+          <caret line="106" column="48" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/getData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2679">
+          <caret line="180" column="38" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/HighSimplePoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python365/Lib/site-packages/torch/serialization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="525" selection-start-line="525" selection-end-line="525" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/new_node_embedding5.txt">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/new_node_embedding4.txt">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/edges/start_node_embedding.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/Parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/new_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="176" column="50" selection-start-line="176" selection-start-column="50" selection-end-line="176" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="226" column="66" selection-start-line="226" selection-start-column="66" selection-end-line="226" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Het/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="157" column="58" selection-start-line="157" selection-start-column="58" selection-end-line="157" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
